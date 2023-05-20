@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    line-height: 1.8;
+    background-color: white;
+}
+a{
+    text-decoration: none;
+}
+#container{
+    position: absolute;
+    right: 22%;
+    max-width: 430px;
+    margin: 30px auto;
+    padding: 40px;
+    animation: signup 2s;
+}
+.form-wrap{
+    background: white;
+    padding: 15px 25px;
+    box-shadow: 0 2px 5px 0.3px;
+}
+.form-wrap h1,
+.form-wrap p{
+    text-align: center;
+
+}
+.form-wrap,.form-group{
+    margin-top: 15px;
+}
+.form-wrap,.form-group label{
+    display: block;
+    
+}
+.form-wrap,.form-group input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.form-wrap button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #E64A27;
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+    font-size: 15px;
+    font-weight: 500;
+    transition: .5s;
+}
+
+.form-wrap button:hover{
+    background-color: #ff8468;
+}
+
+.bottom-text{
+    font-size: 13px;
+    margin-top: 20px;
+}
+footer{
+    text-align: center;
+    margin-top: 10px;
+}
+footer a{
+    color: #E64A27;
+}
+
+.circle{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #E64A27;
+    clip-path: circle(700px at left 12%);
+    z-index: -1;
+    animation: circleIn 2s;
+}
+
+ img{
+    position: absolute;
+    top: 10%;
+    left: 4%;
+    animation: signup 4s;
+}
+.newuser{
+    color: white;
+    position: absolute;
+    bottom: 22%;
+    left: 10%;
+    text-align: center;
+    font-size: 22px;
+}
+
+.socialmedia{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    right: 3%;
+    cursor: pointer;
+    font-size: 25px; 
+    color: #E64A27;
+    animation: signup 2s;
+}
+.socialmedia ul li{
+    list-style: none;
+    
+}
+
+.socialmedia ul li a{
+    color: black;
+    
+}
+.socialmedia ul li a:hover{
+    color: #E64A27;
+}
+
+
+@keyframes signup {
+    0%{
+        opacity: 0;
+        transform: scale(0);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+
+@keyframes circleIn {
+    from{
+        opacity: 0;
+        transform:scaleX(10);
+    }
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="Login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   
+</head>
+<body>
+    <!--Continer Start-->
+    <div id="container">
+        <!--Form Wrap Start-->
+        <div class="form-wrap">
+            <h1>Log In</h1>
+            <p>Login to explore more</p>
+            <!--Form start-->
+            <form name="myform" >
+                <div class="form-group">
+                    <label for="User-name">User Name</label>
+                    <input type="email" name="username" id="User-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required>
+                </div>
+
+
+                <button type="submit" onclick="login()" >Log In</button>
+                <p class="bottom-text">
+                    <a href="#">Forget Password</a> 
+                </p>
+            </form>
+
+            <script>
+                function login(){
+                    var user = document.getElementById("User-name").value;
+                    var pwd = document.getElementById("password").value;
+                    if(user=="admin@gmail.com" && pwd=="123"){
+                        window.location.assign("design.html");
+                        alert("Login Successfully");
+                    } else{
+                        alert("Invalid");
+                        return false;
+                    }
+                }
+            </script>
+            <!--Form close-->
+        </div>
+        <!--Form Wrap close-->
+        <footer>
+            <p>Register for New User <a href="SignUp.html">SignUp</a></p>
+        </footer>
+    </div>
+    <!--Continer close-->
+    <img src="./Images/signup.gif" width="25%">
+    <div class="circle"></div>
+    
+    <div class="newuser">
+    <p><h2>Log In</h2>For View More Designs</p>
+</div>
+<div class="socialmedia">
+    <ul>
+        <h3>Follow Us</h3>
+        <li><a href="https://www.facebook.com/login.php/"><i class="fa-brands fa-facebook" ></i></a></li>
+        <li><a href="https://www.instagram.com/login.php/"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-twitter"></i></a></li>
+    </ul> 
+</div>
+
+
+</body>
+</html>

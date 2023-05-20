@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="SignUp.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+</head>
+<body>
+    <!--Continer Start-->
+    <div id="container">
+        <!--Form Wrap Start-->
+        <div class="form-wrap">
+            <h1>Sign Up</h1>
+            <p>It's Free and only takes a minute</p>
+            <!--Form start-->
+            <form name="myformSign" action="signup.php" method="POST">
+                <div class="form-group">
+                    <label for="first-name">First Name</label>
+                    <input type="text" name="firstname" id="first-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" name="lastname" id="last-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="cpassword">Confirm Password</label>
+                    <input type="password" name="cpassword" id="cpassword" required>
+                </div>
+                
+                <button type="submit">Sign Up</button>
+                <p class="bottom-text">By Clicking the sign up Button, you agree to our
+                    <a href="#">Term & Condition</a> and
+                    <a href="#">Privacy Policy</a>
+                </p>
+            </form>
+            <!--Form close-->
+        </div>
+        <!--Form Wrap close-->
+        <footer>
+            <p>Already Have an Account? <a href="Login.html">Login Here</a></p>
+        </footer>
+    </div>
+    <!--Continer close-->
+    <img src="./Images/signup.gif" width="25%">
+    <div class="circle"></div>
+    
+    <div class="newuser">
+    <p><h2>New User</h2>Sign Up for Free...!</p>
+</div>
+<div class="socialmedia">
+    <ul>
+        <h3>Follow Us</h3>
+        <li><a href="https://www.facebook.com/login.php/"><i class="fa-brands fa-facebook" ></i></a></li>
+        <li><a href="https://www.instagram.com/login.php/"><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-twitter"></i></a></li>
+    </ul> 
+</div>
+
+
+</body>
+</html>

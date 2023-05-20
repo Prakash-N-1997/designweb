@@ -1,0 +1,263 @@
+.TopSection{
+    width: 100%;
+    height: 55px; 
+}
+.listicon{
+    width: 27px;
+    padding: 15px;
+    cursor: pointer;
+}
+.YTlogo{
+    width: 105px;
+    padding: 17px;
+    padding-left: 8px;
+    cursor: pointer;
+}
+.SearchText{
+    position: absolute;
+    top: 15px;
+    left: 30%;
+    width: 598px;
+    height: 7px;
+    border-radius: 50px;
+    border: 1px solid rgb(139, 139, 139);
+    font-size: 20px;
+    padding: 15px; 
+}
+.searchBtn{
+    width: 100px;
+    height: 39px;
+    position: absolute;
+    top: 15px;
+    left: 58.2%;
+    border-radius:0px 50px 50px 0px;
+    border: 0.5px solid rgb(139, 139, 139);
+    cursor: pointer;
+}
+.searchicon{
+    position: absolute;
+    top: 22px;
+    left: 60%;
+    width: 22px;
+    cursor: pointer;
+}
+.mic{
+    position: absolute;
+    top: 24px;
+    left: 64%;
+    width: 20px;
+    cursor: pointer;
+}
+.vieoPlus{
+    position: absolute;
+    top: 22px;
+    left: 90%;
+    width: 26px;
+    cursor: pointer;
+}
+.bell{
+    position: absolute;
+    top: 22px;
+    left: 93%;
+    width: 24px;
+    cursor: pointer;
+}
+.accicon{
+    position: absolute;
+    top: 19px;
+    left: 96%;
+    width: 32px;
+    cursor: pointer;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    font-family: poppins;
+    font-size: 17px;
+    position: relative;
+    top: 20px;
+    left: 15%;
+    color: rgb(92, 92, 92);
+    font-weight: 600;
+    cursor: pointer;
+}
+.nav label:hover{
+    cursor: pointer;
+    color: black;
+    
+}
+.searchIcoNav{
+    width: 17px;
+    cursor: pointer;
+}
+.Aleft, .Aright{
+    width: 22px;
+    cursor: pointer;
+}
+
+#line{
+    position: absolute;
+    top: 14%;
+    left: 14%;
+    width: 85%;
+    height: 0.5px;
+    background-color: rgb(212, 212, 212);
+}
+#Sideline{
+    position: absolute;
+    top: 8.8%;
+    left: 7px;
+    width: 225px;
+    height: 0.5px;
+    background-color: rgb(212, 212, 212);
+}
+#Sideline2{
+    position: absolute;
+    top: 24.6%;
+    left: 7px;
+    width: 225px;
+    height: 0.5px;
+    background-color: rgb(212, 212, 212);
+}
+#Sideline3{
+    position: absolute;
+    top: 35.5%;
+    left: 7px;
+    width: 225px;
+    height: 0.5px;
+    background-color: rgb(212, 212, 212);
+}
+#Sideline4{
+    position: absolute;
+    top: 64%;
+    left: 7px;
+    width: 225px;
+    height: 0.5px;
+    background-color: rgb(212, 212, 212);
+}
+#Sideline5{
+    position: absolute;
+    top: 77.2%;
+    left: 7px;
+    width: 225px;
+    height: 0.5px;
+    background-color: rgb(212, 212, 212);
+}
+#Sideline6{
+    position: absolute;
+    top: 88%;
+    left: 7px;
+    width: 225px;
+    height: 0.5px;
+    background-color: rgb(212, 212, 212);
+}
+.LeftSide{
+    position: absolute;
+    top: 60px;
+    left: 15px;
+    width: 13.5%;
+    height: 2000px;
+}
+.home2 img{
+    width: 25px;
+    height: 25px;
+}
+.item, .item1{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    width: 230px;
+    height: 30px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: poppins;
+    color: rgb(77, 77, 77);
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+}
+.item:hover{
+    background-color: rgb(235, 235, 235);
+}
+.item span{
+    display: flex;
+    position: relative;
+    margin-left: 30px;
+}
+h3{
+    font-size: 19px;
+    font-family: poppins;
+    font-weight: 100;
+    color: rgb(37, 37, 37);
+    padding-left: 10px;
+}
+.item p{
+    font-size: 15px;
+    font-family: poppins;
+}
+
+h2{
+    font-size: 13px;
+    font-family: poppins;
+    color: rgb(138, 138, 138);
+    font-weight: 100;
+}
+.centerContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: absolute;
+    top: 15%;
+    left: 14%;
+    width: 80%;
+    height: 1900px;
+    padding: 30px;
+    
+    
+}
+.C_video{
+    
+    width: 350px;
+    height: 350px;
+      
+}
+.C_logo img{
+    
+    padding: 10px 0px 0px 0px;
+    height: 35px;
+    width: 35px;
+}
+.describe{
+    display: inline-table;
+    position: absolute;
+    margin: 10px;
+    width: 300px;
+    font-size: 15px;
+    font-family: poppins;
+    font-weight: 600;
+}
+.sony{
+    display: inline-flex;
+    position: relative;
+    margin-top: 25px;
+    margin-left: 35px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: 200;
+    color: rgb(138, 138, 138);
+}
+.sony img{
+    position: absolute;
+    padding-top: 3px;
+    padding-left: 10px;
+}
+.C_views{
+    margin-top: -5px;
+    margin-left: 45px;
+    font-size: 13px;
+    font-family: poppins;
+    font-weight: 200;
+    color: rgb(138, 138, 138);
+}

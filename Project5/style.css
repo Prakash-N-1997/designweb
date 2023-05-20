@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;   
+}
+
+.section1{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(180,202,217,255);
+}
+
+#idaboutus,.idcontact,#idcontactnew,
+#templates{
+    width: 100%;
+    height: 100vh;
+}
+
+
+.logo{
+    display: flex;
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    animation: transitionsIn 2s;  
+}
+
+.logo:hover{
+    color: rgb(0, 195, 255);
+    transition: 1s;
+}
+
+nav a{
+    
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 17px;
+    color: white;
+    cursor: pointer;
+    animation: transitionsIn 3.5s;  
+}
+
+nav a:hover{
+    color: rgb(0, 195, 255);
+    font-size: 18px;
+    transition: 0.5s;
+}
+.SignIn{
+    padding: 3px 15px;
+    font-size: 15px;
+    background: transparent;
+    border: none;
+    border-radius: 20px;
+    align-content: center;
+    color: white;
+    cursor: pointer;
+    animation: transitionsIn 4s;  
+}
+
+.SignUp{
+    padding: 3px 15px;
+    font-size: 15px;
+    background: transparent;
+    border-radius: 20px;
+    align-content: center;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.SignIn:hover{
+    color: rgb(0, 195, 255);
+    font-size: 16px;
+    transition: 0.5s;
+}
+.SignUp:hover{
+    color: rgb(0, 195, 255);
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+
+.submit img{
+    width: 20px;
+    align-content: center;
+}
+
+.submit{
+    display: flex;
+    gap: 10px;
+    align-content: center;
+    animation: transitionsIn 4s; 
+}
+
+body{
+    background-color: white;
+}
+
+.frontimg img{
+    position: absolute;
+    top: 80px;
+    left: 4%;
+    width: 32%;
+    cursor: pointer;
+    animation: transitionsIn 2s;
+}
+
+.circle{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: white;
+    clip-path: circle(600px at right 20%);
+    animation: circleIn 2.5s;
+}
+
+
+.socialmedia{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    top: 13%;
+    right: 3%;
+    cursor: pointer;
+    font-size: 25px; 
+    animation: tell 5s;  
+}
+.socialmedia ul li{
+    list-style: none;
+    
+}
+
+.socialmedia ul li a{
+    color: black;
+    
+}
+.socialmedia ul li a:hover{
+    color: rgb(0, 195, 255);
+}
+
+
+.every img{
+    width: 9%;
+}
+
+.home{
+    position: absolute;
+    top: 22%;
+    left: 45%;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: left;
+    animation: tell 3s;  
+}
+
+.bcool{
+    position: absolute;
+    top: 38%;
+    left: 45%;
+    color: black;
+    font-size: 50px;
+    font-weight: 900;
+    animation: tell 4s;
+
+
+}
+
+.homepara{
+    display: wrap;
+    position: absolute;
+    top: 48%;
+    left: 45%;
+    color: black;
+    font-size: 20px;
+    animation: tell 4s;
+}
+
+.every{
+    position: absolute;
+    bottom: 13%;
+    left: 45%;
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    animation: tell 5s;
+}
+
+@keyframes transitionsIn {
+    from{
+        opacity: 0;
+        transform: scale(0);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes circleIn {
+    from{
+        opacity: 0;
+        transform:scaleX(10);
+    }
+}
+
+@keyframes tell {
+    0%{
+        opacity: 0;
+        transform: translateX(1000%);
+    }
+    100%{
+    
+        transform: translateX(0%);
+    }
+}
+
+
+
+.aboutus{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    text-align: center;
+    padding: 50px;
+}
+.aboutus h1{
+    font-size: 40px;
+    animation: transitionsIn 2s;
+}
+.aboutus p{
+    padding: 5px;
+    font-size: 20px;
+}
+video{
+    padding: 70px;
+}
+
+#joinbcool{
+    position: absolute;
+    top: 92%;
+    right: 41%;
+    padding: 10px;
+}
+
+.joinus{
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    position: absolute;
+    right: 47%;
+    bottom: 9%; 
+    border: none;
+}
+.joinus:hover{
+    background-color: rgb(0, 195, 255);
+    color: black;
+    transition: 0.3s;
+}
+
+/*contact*/
+
+.idcontact{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(119,166,160);
+    text-align: center;
+    padding: 50px;
+}
+.idcontact h1{
+    font-size: 40px;
+    animation: transitionsIn 2s;
+}
+.idcontact p{
+    padding: 5px;
+    font-size: 25px;
+    animation: transitionsIn 2s;
+}
+
+.teammeet img{
+    position: relative;
+    margin-right: -50%;
+    margin-top: 3%;
+    animation: tell 4s;
+}
+
+.teammeet #teamtxt{
+    width: 50%;
+    text-align: center;
+    line-height: 45px;
+    position: relative;
+    margin-top: -30%;
+    font-size: 20px;
+    animation: tell 3s;
+}
+
+.Teamquotes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    bottom: 8%;
+    left: 4%;
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+    animation: tell 5s;
+}
+.Teamquotes img{
+    width: 9%;
+    
+}
+
+
+/*Slider*/
+
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-250px * 6));
+    }
+}
+
+.slider{
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+}
+.slide-track{
+    animation:  scroll 35s linear infinite;
+    display: flex;
+    padding: 10px;
+    width: calc(250px * 12);
+    cursor: pointer;
+}
+.slider,.slide{
+    box-shadow: 0 0 .3px .2px;
+    padding: 10px;
+    height: 330px;
+    width: 100%;
+}
+
+
+
+.Designtemp{
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+    animation: transitionsIn 2s;
+}
+
+
+
+
+@keyframes scrolls{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(250px * 6));
+    }
+}
+
+.slider1{
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+}
+.slide-track1{
+    animation:  scrolls 35s linear infinite;
+    display: flex;
+    padding: 10px;
+    width: calc(250px * 12);
+    cursor: pointer;
+    overflow: hidden;
+    perspective: 100px;
+    cursor: pointer;
+}
+.slider1,.slide1{
+    box-shadow: 0 0 .3px .2px;
+    padding: 10px;
+    height: 330px;
+    width: 100%;
+}
+.slide1 img:hover{
+    transform: translateZ(20px);
+}
+
+/*.....Contact us.....*/
+
+#idcontactnew{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    display: flex;
+    padding: 20px;
+    place-content: center;
+}
+.contactdetails h1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    padding: 20px;
+}
+.locationMap {
+    padding-left:70px;
+}
+.locationMap h1{
+    position: relative;
+    left: -29%;
+    font-size: 30px;
+}
+
+.rightfooter{
+    position: relative;
+    left: 50%;
+    top: -550px;
+    width: 45%;
+    height: 550px;
+    padding: 20px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.rightfooter p{
+padding: 10px;
+font-size: 20px;
+}
+
+.phones{
+    display: block;
+    position: absolute;
+    padding: 5%;
+    left: 130px;
+    bottom: 10px;
+    cursor: pointer;
+}
+.mail{
+    display: block;
+    position: absolute;
+    padding: 5%;
+    right: 130px;
+    bottom: 10px;
+    cursor: pointer;
+}
+
+.phones:hover{
+    color: firebrick;
+}
+.mail:hover{
+    color: firebrick;
+}
+
+.footerclass{
+    position: relative;
+    padding: 20px;
+    bottom: 0;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
